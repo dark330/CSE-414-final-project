@@ -1,0 +1,11 @@
+#
+# create a single user
+create user1 user1 100
+create user1 user1 10
+quit
+*
+#
+Created user user1
+Failed to create user
+Goodbye
+*

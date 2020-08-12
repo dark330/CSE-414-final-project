@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="flightapp.FlightServiceTest" time="58.39" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="test.cases" value="cases/transaction"/>
+    <property name="java.class.path" value="/Users/wx/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M4/surefire-booter-3.0.0-M4.jar:/Users/wx/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M4/surefire-api-3.0.0-M4.jar:/Users/wx/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M4/surefire-logger-api-3.0.0-M4.jar:/Users/wx/Desktop/cse414/dengy7/hw5/target/test-classes:/Users/wx/Desktop/cse414/dengy7/hw5/target/classes:/Users/wx/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/wx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/wx/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/8.2.0.jre11/mssql-jdbc-8.2.0.jre11.jar:/Users/wx/.m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar:/Users/wx/Desktop/cse414/dengy7/hw5/distributed.jar:/Users/wx/.m2/repository/org/apache/maven/surefire/surefire-junit4/3.0.0-M4/surefire-junit4-3.0.0-M4.jar:/Users/wx/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M4/common-java5-3.0.0-M4.jar:/Users/wx/.m2/repository/org/apache/maven/surefire/common-junit3/3.0.0-M4/common-junit3-3.0.0-M4.jar:/Users/wx/.m2/repository/org/apache/maven/surefire/common-junit4/3.0.0-M4/common-junit4-3.0.0-M4.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/wx/Desktop/cse414/dengy7/hw5/target/surefire 2020-05-25T11-03-49_417-jvmRun1 surefire15177366677891482527tmp surefire_07993801173361871526tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/wx/Desktop/cse414/dengy7/hw5/target/test-classes:/Users/wx/Desktop/cse414/dengy7/hw5/target/classes:/Users/wx/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/wx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/wx/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/8.2.0.jre11/mssql-jdbc-8.2.0.jre11.jar:/Users/wx/.m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar:/Users/wx/Desktop/cse414/dengy7/hw5/distributed.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/wx"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/wx/Desktop/cse414/dengy7/hw5"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="wx"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/wx/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/l8/7s5l0q2n1c539k1_q6b9p3100000gn/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/wx/Desktop/cse414/dengy7/hw5"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/wx/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="runTest[0]" classname="flightapp.FlightServiceTest" time="7.984"/>
+  <testcase name="runTest[1]" classname="flightapp.FlightServiceTest" time="4.743"/>
+  <testcase name="runTest[2]" classname="flightapp.FlightServiceTest" time="7.35"/>
+  <testcase name="runTest[3]" classname="flightapp.FlightServiceTest" time="6.98"/>
+  <testcase name="runTest[4]" classname="flightapp.FlightServiceTest" time="7.112"/>
+  <testcase name="runTest[5]" classname="flightapp.FlightServiceTest" time="7.074"/>
+  <testcase name="runTest[6]" classname="flightapp.FlightServiceTest" time="8.145"/>
+  <testcase name="runTest[7]" classname="flightapp.FlightServiceTest" time="1.008"/>
+  <testcase name="runTest[8]" classname="flightapp.FlightServiceTest" time="2.101"/>
+  <testcase name="runTest[9]" classname="flightapp.FlightServiceTest" time="1.098"/>
+</testsuite>
